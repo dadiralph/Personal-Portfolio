@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 20px;
+}
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 300;
+    color: #ccc;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align:right;
+    right: 100px;
+    position: absolute;
+    top: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.modern-footer {
+    background-color: #0e1117;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-text p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #bbb;
+  }
+  
+  .footer-socials h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .social-icons a.github { background-color: #24292e; }
+  .social-icons a.facebook { background-color: #1877f2; }
+  .social-icons a.linkedin { background-color: #0a66c2; }
+  .social-icons a.twitter { background-color: #1da1f2; }
+  .social-icons a.instagram { background-color: #e1306c; }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(104, 104, 104, 0.2);
+    opacity: 0.9;
+  }
+
+  .social-icons a {
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
