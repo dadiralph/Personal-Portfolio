@@ -14,6 +14,7 @@
 </head>
 <body>
 
+<canvas id="constellation"></canvas>
 
   <section class="projects">
     <div class="container">
@@ -27,7 +28,7 @@
         </div>
 
         <div class="project-item">
-          <h3>🛍️ Shop sHeesh</h3>
+          <h3>🛍️ Shop Sheesh</h3>
           <p>An e-commerce site layout with product displays and cart functionality.</p>
           <a href="https://github.com/dadiralph/Shop-sHeesh" target="_blank">View on GitHub</a>
         </div>
@@ -49,21 +50,21 @@
         <h3>Collab with BPO team</h3>
         <img src="../assets/col.jpg" alt="Collab with BPO team">
         <p>Partnered with the BPO team to streamline ad operations and refine campaign workflows, leading to a measurable increase in performance efficiency across multiple digital platforms. By leveraging cross-functional collaboration and data-driven strategies, we enhanced overall campaign execution and set new standards for operational excellence.</p>
-        <a href="#" target="_blank">View Here</a>
+        
       </div>
 
       <div class="project-item">
         <h3>Success Marketing Strategy</h3>
         <img src="../assets/col2.jpg" alt="Collab with HR team">
         <p>Collaborated closely with the BPO team to craft and execute a comprehensive marketing strategy tailored to our target audience. By aligning advertising efforts with operational insights, we significantly boosted brand awareness and user engagement across key channels. The strategy received formal approval from our Site Lead and served as a benchmark for future cross-functional campaigns.</p>
-        <a href="#" target="_blank">View Here</a>
+        
       </div>
 
       <div class="project-item">
         <h3>Team Building</h3>
         <img src="../assets/col3.jpg" alt="Collab with HR team">
         <p>Collaboration with RDAT, BPO, and AdOps teams, fostering stronger interdepartmental relationships, improving communication, and boosting overall team morale. The initiative not only encouraged cross-functional synergy but also laid the groundwork for a more unified and efficient work environment.</p>
-        <a href="#" target="_blank">View Here</a>
+        
       </div>
     </div>
     </div>
@@ -93,6 +94,6 @@
   
 
   <?php Include ('header/footer.php')  ?>
-  <script src="js/script.js"></script>
+  <script src="../java/proj.js"></script>
 </body>
 </html>

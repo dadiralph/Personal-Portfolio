@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    
   }
 
+  #constellation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000000fa;
+  }
 
   body{
     background-color: #000000;
-    
+    font-family: 'Inter', sans-serif;
   }
   
   
@@ -45,11 +55,15 @@
         border-left: 5px solid #32cf16dc;
     }
    .projects h2 {
+    font-family: "Turret Road", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 2rem;
     color: #0af502af;
     margin-bottom: 20px;
    }
   .project-item h3 {
+    font-family: "Turret Road", sans-serif;
     font-size: 1.5rem;
     color: #009e8c;
     margin-bottom: 10px;

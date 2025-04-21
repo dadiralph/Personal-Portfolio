@@ -1,109 +1,117 @@
-
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(to right, #dbeafe, #e0f2fe);
-    color: #1e293b;
-    width: 100%;
-    height: 100%;
-  }
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  color: #e0f2f1;
+  overflow-x: hidden;
+}
+
+#constellation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 .contact-section {
-    background: linear-gradient(to bottom right, #f5f7fa, #e4ecf5);
-    padding: 50px 20px;
-    border-radius: 12px;
-    width: 100%;
-    height: 75%;
-    display: flex;
-  }
-  
-  .form-container {
-    background-color: white;
-    max-width: 600px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .form-container h2 {
-    margin-bottom: 10px;
-    font-size: 28px;
-    color: #1a1a1a;
-  }
-  
-  .form-container p {
-    margin-bottom: 30px;
-    color: #555;
-  }
-  
-  .contact-form .input-group {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .input-group i {
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    transform: translateY(-50%);
-    color: #888;
-  }
-  
-  .input-group input,
-  .input-group textarea {
-    width: 100%;
-    padding: 12px 15px 12px 40px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    transition: border-color 0.3s;
-  }
-  
-  .input-group input:focus,
-  .input-group textarea:focus {
-    border-color: #0077cc;
-    outline: none;
-  }
-  
-  .submit-btn {
-    display: inline-flex;
-    align-items: center;
-    background-color: #0077cc;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .submit-btn i {
-    margin-right: 10px;
-  }
-  
-  .submit-btn:hover {
-    background-color: #005fa3;
-  }
-  
-  .success-msg,
-  .error-msg {
-    margin: 20px auto;
-    padding: 12px 20px;
-    border-radius: 8px;
-    max-width: 500px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .success-msg {
-    background-color: #d4edda;
-    color: #155724;
-  }
-  
-  .error-msg {
-    background-color: #f8d7da;
-    color: #721c24;
-  }
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: rgba(18, 18, 20, 0.9);
+  border: 1px solid #00acc1;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+  text-align: center;
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00e5ff;
+}
+
+.form-container p {
+  color: #b0bec5;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.contact-form .input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #26c6da;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  background-color: #1c1c1e;
+  color: #e0f7fa;
+  border: 1px solid #4dd0e1;
+  padding: 12px 15px 12px 45px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #00e5ff;
+  outline: none;
+}
+
+.submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #00acc1;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
+}
+
+.success-msg,
+.error-msg {
+  margin: 30px auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.success-msg {
+  background-color: #1b5e20;
+  color: #b2fab4;
+  border: 1px solid #66bb6a;
+}
+
+.error-msg {
+  background-color: #b71c1c;
+  color: #ffcdd2;
+  border: 1px solid #e57373;
+}

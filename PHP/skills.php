@@ -25,22 +25,12 @@
       <h1><i class="fas fa-user-cog"></i> Skills & Certifications</h1>
 
       <div class="tabs">
-        <button class="tab-button active" onclick="showTab(event, 'communication')"><i class="fas fa-comments"></i> Communication</button>
-        <button class="tab-button" onclick="showTab(event, 'computer')"><i class="fas fa-laptop-code"></i> Technical Skills</button>
+        <button class="tab-button active" onclick="showTab(event, 'computer')"><i class="fas fa-laptop-code"></i> Technical Skills</button>
+        <button class="tab-button" onclick="showTab(event, 'communication')"><i class="fas fa-comments"></i> Communication</button>
         <button class="tab-button" onclick="showTab(event, 'certifications')"><i class="fas fa-certificate"></i> Certifications</button>
       </div>
 
-      <div id="communication" class="tab-content active">
-        <h2>Communication Skills</h2>
-        <div class="skills-flex">
-          <div class="skill" ><i class="fas fa-language"></i> Filipino</div>
-          <div class="skill" ><i class="fas fa-language"></i> English</div>
-          <div class="skill" ><i class="fas fa-language"></i> Chavacano</div>
-          <div class="skill" ><i class="fas fa-language"></i> Bisaya</div>
-        </div>
-      </div>
-
-      <div id="computer" class="tab-content">
+      <div id="computer" class="tab-content active">
   <h2>Computer & Technical Skills</h2>
 
   <div class="skill-section">
@@ -107,6 +97,18 @@
     </div>
   </div>
 </div>
+
+
+<div id="communication" class="tab-content">
+        <h2>Communication Skills</h2>
+        <div class="skills-flex">
+          <div class="skill" ><i class="fas fa-language"></i> Filipino</div>
+          <div class="skill" ><i class="fas fa-language"></i> English</div>
+          <div class="skill" ><i class="fas fa-language"></i> Chavacano</div>
+          <div class="skill" ><i class="fas fa-language"></i> Bisaya</div>
+        </div>
+      </div>
+
 
       <div id="certifications" class="tab-content">
         <h2>Certifications</h2>
