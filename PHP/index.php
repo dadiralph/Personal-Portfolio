@@ -16,7 +16,7 @@
 <section class="hero">
 <img  src="../assets/landings.png" alt="">
   <div class="container-hero">
-  <h2>I'm <span class="typewriter"><span class="typed-text"></span></span></h2>
+  <h2>I'm A<span class="typewriter"><span class="typed-text"></span></span></h2>
     <p>I bring creativity and precision to front-end development and advertising operations.</p>
     <a href="projects.php" class="btn">View My Projects</a>
   </div>
