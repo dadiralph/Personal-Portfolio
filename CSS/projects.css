@@ -88,3 +88,35 @@
     color: rgba(222, 184, 135, 0.973);
   }
   
+
+
+  .project-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+  }
+  
+  .project-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .project-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 20px #00ff885d;
+  }
+  
+  /* Optional: Glowing title effect */
+  .projects h2 {
+    text-shadow: 0 0 5px #0af502, 0 0 10px #0af502;
+    animation: glowText 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glowText {
+    from {
+      text-shadow: 0 0 5px #0af502, 0 0 10px #0af502;
+    }
+    to {
+      text-shadow: 0 0 15px #0af502, 0 0 30px #0af502;
+    }
+  }

@@ -36,7 +36,7 @@
   </div>
   <div class="stat-box">
     <i class='bx bx-check-shield stat-icon'></i>
-    <h3 class="counter" data-target="96">0%</h3>
+    <h3 class="counter" data-target="98">0%</h3>
     <p>QA Accuracy</p>
   </div>
   <div class="stat-box">

@@ -27,8 +27,7 @@ include ('header/header.php')
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-
-<canvas id="constellation"></canvas>
+<canvas id="cyberpunk-bg"></canvas>
 
 <main>
   <section class="contact-section">
@@ -57,6 +56,6 @@ include ('header/header.php')
 </main>
 
 <?php include ('header/footer.php') ?>
-<script src="../java/constellation.js"></script> <!-- If using background script -->
+<script src="../java/contact.js"></script> <!-- If using background script -->
 </body>
 </html>
