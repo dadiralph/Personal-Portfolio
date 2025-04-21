@@ -118,6 +118,9 @@
           <li>DICT Region 9: Personal & Career Development <br><span>Talon Talon, km7, Zamboanga City, Philippines 7000 <br>Aug 3, 2022</span></li>
           <li>GDG Zamboanga: Devfest ZamPen 2022<br><span>Normal Road, Baliwasan, Zamboanga City, Philippines 7000 <br> Nov 26, 2022</span></li>
           <li>Bisaya Freelancers: YouTube, Facebook, TikTok Ads <br><span> Nov 2, 2024</span></li>
+          <li>Internship: DTI Zamboanga <br><span>2F David Walstrom Bldg., ADZU
+Lantaka Campus, NS Valderosa St.
+7000 Zamboanga Philippines<br>June 22 , 2023</span></li>
         </ul>
         <p>
           <i  id="cons" class="fas fa-folder-open"></i>

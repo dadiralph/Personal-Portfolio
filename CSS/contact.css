@@ -6,18 +6,24 @@ body {
   overflow-x: hidden;
 }
 
-#constellation {
+#cyberpunk-bg {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
+  pointer-events: none;
 }
+
 
 .contact-section {
   padding: 60px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1; /* so it's above the canvas */
 }
 
 .form-container {
@@ -114,4 +120,32 @@ body {
   background-color: #b71c1c;
   color: #ffcdd2;
   border: 1px solid #e57373;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

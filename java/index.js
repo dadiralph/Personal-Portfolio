@@ -129,7 +129,7 @@ function animateCounters() {
       let count = 0;
 
       // Customize speed based on the number size
-      const increment = target > 500 ? Math.ceil(target / 60) : 1;
+      const increment = target > 150 ? Math.ceil(target / 60) : 1;
       const stepTime = 20;
 
       const updateCount = () => {

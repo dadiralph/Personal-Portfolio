@@ -131,7 +131,7 @@ include('header/header.php')
     <div class="testimonial-cards">
       <div class="testimonial-card">
         <div class="testimonial-img">
-          <img src="https://via.placeholder.com/100" alt="Sarah L." />
+          <img src="../assets/harline.jpg" alt="Harline S." />
         </div>
         <blockquote>
           "Ralph’s attention to detail and drive to get things right made a huge impact on the campaigns we worked on together."
@@ -140,7 +140,7 @@ include('header/header.php')
       </div>
       <div class="testimonial-card">
         <div class="testimonial-img">
-          <img src="https://via.placeholder.com/100" alt="John D." />
+          <img src="../assets/hs.jpg" alt="John D." />
         </div>
         <blockquote>
           "It was clear from the moment Ralph joined that his technical skills were backed by an unrelenting desire to learn and improve. He’s a real asset."
@@ -149,7 +149,7 @@ include('header/header.php')
       </div>
       <div class="testimonial-card">
         <div class="testimonial-img">
-          <img src="https://via.placeholder.com/100" alt="Mark T." />
+          <img src="../assets/jaydee.jpg" alt="Jaydee B." />
         </div>
         <blockquote>
           "Ralph’s QA expertise, combined with his strong problem-solving skills, made him indispensable to our team."
@@ -159,7 +159,7 @@ include('header/header.php')
 
       <div class="testimonial-card">
         <div class="testimonial-img">
-          <img src="https://via.placeholder.com/100" alt="Mark T." />
+          <img src="../assets/bableen.jpg" alt="Bableen K." />
         </div>
         <blockquote>
           "Ralph’s QA expertise, combined with his strong problem-solving skills, made him indispensable to our team."
@@ -169,7 +169,7 @@ include('header/header.php')
 
       <div class="testimonial-card">
         <div class="testimonial-img">
-          <img src="https://via.placeholder.com/100" alt="Mark T." />
+          <img src="../assets/elise.jpg" alt="Elise A." />
         </div>
         <blockquote>
           "Ralph’s QA expertise, combined with his strong problem-solving skills, made him indispensable to our team."
