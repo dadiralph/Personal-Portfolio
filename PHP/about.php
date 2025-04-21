@@ -16,10 +16,22 @@ include('header/header.php')
 
 <body>
 
+<div class="background-effects">
+  <div class="stars"></div>
+  <div class="milkyway"></div>
+  <div class="violet-glow"></div>
+  <img src="../assets/ast1.png" class="asteroid" >
+  <img src="../assets/ast2.png" class="asteroid" >
+  <img src="../assets/ast3.png" class="asteroid" >
+  <img src="../assets/ast4.png" class="asteroid" >
+  <img src="../assets/ast5.png" class="asteroid" >
+</div>
+
   <section class="about-hero">
+  <h1 class="about-title">More About Me</h1>
     <div class="container">
       <div class="about-hero-content">
-        <h1 class="about-title">More About Me</h1>
+        
         <p class="about-subtitle typewriter">My Journey from QA & Ads Specialist to the World of Code</p>
       </div>
       <div class="about-hero-image">
@@ -31,13 +43,11 @@ include('header/header.php')
     </div>
   </section>
 
-  <div class="fam">
-        <img src="../assets/rocket.png" alt="Product Illustration" />
-</div>
-
+ 
   <section class="my-story">
+  <h2>My Path</h2>
     <div class="container">
-      <h2>My Path</h2>
+      
       <p>
       My professional journey has taken me through the critical landscapes of Quality Assurance and the fast-paced world of Ad Operations, where I honed a sharp eye for detail, a commitment to seamless functionality, and a knack for effective problem-solving. These experiences provided a strong foundation in understanding how technology impacts efficiency and user satisfaction.
       </p>
@@ -48,8 +58,9 @@ include('header/header.php')
   </section>
 
   <section class="past-experiences">
+  <h2>Past Experiences Shaping My Future</h2>
     <div class="container">
-      <h2>Past Experiences Shaping My Future</h2>
+      
       <div class="experience-cards">
         <div class="experience-card">
         <h3><i class="fas fa-bullhorn"></i> Ad Operation Specialist</h3>
@@ -85,8 +96,9 @@ include('header/header.php')
         <img src="../assets/naut.png" alt="Product Illustration" />
 </div>
   <section class="aspirations">
+  <h2>Looking Ahead</h2>
     <div class="container">
-      <h2>Looking Ahead</h2>
+      
       <p>
       Fueled by a deep-seated desire to not just operate but to actively build and create, I'm now channeling my energy into the compelling world of software development. My background in Ad Operations and Quality Assurance has instilled in me a strong appreciation for efficiency, meticulous attention to detail (honed through campaign optimization at Vintazk Outsourcing and ensuring quality at Bubblebest), and a practical understanding of technical workflows (gained during my IT internship at the Department of Trade and Industry). I'm eager to fuse these experiences with my burgeoning coding skills to contribute meaningfully to innovative and impactful projects.
       </p>
@@ -97,14 +109,15 @@ include('header/header.php')
       On the following page, you'll find a closer look at the specific skills and technologies I'm currently immersed in and applying to my projects.
       </p>
       <div class="call-to-skills">
-        <a href="/skills.php" class="cta-button primary">See My Skills</a>
+        <a href="skills.php" class="cta-button primary">See My Skills</a>
       </div>
     </div>
   </section>
 
   <section class="personal-touch">
+  <h2>Beyond the Code</h2>
     <div class="container">
-      <h2>Beyond the Code</h2>
+      
       <p>
       Outside the world of code and emerging technologies, I find myself drawn to the strategic depths of board games and the dynamic interplay of basketball – both honing my analytical thinking. The precision engineering and competitive spirit of Formula 1 also captivate my interest, as does the challenge and reward of learning a new language. These diverse pursuits not only offer a creative outlet but also enrich my perspective, bringing fresh insights to my technical endeavors.
       </p>
@@ -112,8 +125,9 @@ include('header/header.php')
   </section>
 
   <section class="testimonials">
+  <h2>What People Are Saying</h2>
   <div class="container">
-    <h2>What People Are Saying</h2>
+    
     <div class="testimonial-cards">
       <div class="testimonial-card">
         <div class="testimonial-img">

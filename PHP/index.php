@@ -1,6 +1,4 @@
 <?php Include ('header/header.php')  ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,20 +7,42 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/header.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />  
 </head>
 <body>
 
-<div class="cd">
-        <img src="../assets/cd.gif" alt="Product Illustration" />
-      </div>
+<canvas id="constellation"></canvas>
 
 <section class="hero">
-  <div class="container">
-    <h2><span class="typewriter"></span></h2>
+<img  src="../assets/landings.png" alt="">
+  <div class="container-hero">
+  <h2>I'm <span class="typewriter"><span class="typed-text"></span></span></h2>
     <p>I bring creativity and precision to front-end development and advertising operations.</p>
     <a href="projects.php" class="btn">View My Projects</a>
+  </div>
+</section>
+
+<!-- ✨ Stats Section: Achievements FIRST -->
+<section class="stats" id="stats">
+  <div class="stat-box">
+    <i class='bx bx-bullseye stat-icon'></i>
+    <h3 class="counter" data-target="240">0</h3>
+    <p>Completed Campaigns</p>
+  </div>
+  <div class="stat-box">
+    <i class='bx bx-rocket stat-icon'></i>
+    <h3 class="counter" data-target="198">0</h3>
+    <p>Campaigns Set Live</p>
+  </div>
+  <div class="stat-box">
+    <i class='bx bx-check-shield stat-icon'></i>
+    <h3 class="counter" data-target="96">0%</h3>
+    <p>QA Accuracy</p>
+  </div>
+  <div class="stat-box">
+    <i class='bx bx-code-alt stat-icon'></i>
+    <h3 class="counter" data-target="11">0</h3>
+    <p>Front-End Projects</p>
   </div>
 </section>
 
@@ -38,17 +58,7 @@
         <li>🗣️ Multilingual: English, Filipino, Chavacano, Bisaya</li>
       </ul>
     </div>
-  </section>
-
-
-
-  
-
-<div class="work">
-        <img src="../assets/t2.gif" alt="Product Illustration" />
-      </div>
-
-    
+  </section>   
     <?php Include ('header/footer.php')  ?>
     <script src="../java/index.js"></script>
 </body>
