@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  width: 100%;
+  /* Ensure body takes up full width */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+}
+
+.cd {
+  position: absolute;
+
+}
+
+
+/* Hero */
+.hero {
+  background: #e0f7fa;
+  padding: 50px 20px;
+  text-align: center;
+  animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  /* Ensure hero section takes full width */
+  margin: 0 auto;
+  /* Center the hero section if needed */
+
+
+}
+
+.typewriter {
+  font-size: 2.5rem;
+  color: #00796b;
+  display: inline-block;
+  border-right: 4px solid #00796b;
+  /* Cursor effect */
+  animation: blink 0.75s step-end infinite;
+  position: absolute;
+}
+
+
+.btn {
+  background: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #004d40;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  position: relative;
+  right: 200px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  margin-top: 5rem;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 40px;
+  position: relative;
+  /* Make the section position relative to position the pseudo-element */
+  overflow: hidden;
+  /* Prevent the pseudo-element from overflowing */
+  background-color: white;
+
+
+
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #000000;
+  position: relative;
+  padding: 20px;
+  left: 30rem;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+.skills li::before {
+  content: "✔️";
+  margin-right: 10px;
+  color: #03a9f4;
+}
+
+.work {
+
+  right: 13rem;
+  /* Adjust as needed */
+  top: 41rem;
+  /* Center vertically */
+  position: absolute;
+  /* Position the image absolutely */
+
+
+}
+
+.work img {
+  width: 500px;
+  height: 400px;
+  border-radius: 80%;
+
+}

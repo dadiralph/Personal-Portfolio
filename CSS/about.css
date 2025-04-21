@@ -1,0 +1,413 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid #39FF14;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #39FF14 }
+}
+
+.fam img,
+.astronaut img {
+  transition: transform 0.3s ease;
+}
+
+.fam img:hover,
+.astronaut img:hover {
+  transform: scale(1.05) translateY(-10px);
+}
+
+.fam{
+  position: absolute;
+  top: 57rem;
+  opacity: 0.9;
+  animation: scale-up 2.5s ease-in-out alternate infinite;
+  right:40px
+}
+
+.fam img{
+  transform: scaleX(-1);
+}
+
+@keyframes scale-up {
+  from{
+      transform: translateY(0);
+  }
+  to{
+      transform: translateY(15px);
+  }
+}
+
+.astronaut {
+  position: absolute;
+  top: 125rem;
+  opacity: 0.9;
+  animation: scale-up 2.5s ease-in-out alternate infinite;
+  rotate: -20deg;
+  left: 170px;
+}
+
+.astronaut img {
+  width: 80%;
+  height: auto;
+  
+}
+
+
+/* Button Styling */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+  padding: 12px 25px;
+  background-color: #00796b;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.download-btn:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+.download-btn:active {
+  transform: scale(0.98);
+}
+
+/* Icon Animation */
+.download-btn i {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+h2{
+  color: #a7fccd;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color:#00796b;
+  color: #fff;
+}
+
+.cta-button.secondary {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+/* About Hero Section */
+.about-hero {
+  background-color: #1e2020;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero-content {
+  margin-bottom: 40px;
+}
+
+.about-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.about-subtitle {
+  color: #918c8c;
+  font-size: 1.2em;
+}
+
+.about-hero-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+.about-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  
+}
+
+/* My Story Section */
+.my-story {
+  padding: 60px 0;
+  background-color: #000000;
+}
+
+.my-story .container {
+  max-width: 800px;
+}
+
+.my-story h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #00796b;
+}
+
+
+/* Past Experiences Section */
+.past-experiences {
+  padding: 60px 0;
+  background-color: #000000;
+}
+
+.past-experiences .container {
+  max-width: 90rem;
+}
+
+.past-experiences h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+  color:  #00796b;
+  
+}
+
+.experience-cards {
+  display: flex; /* Use Flexbox for horizontal alignment */
+  flex-direction: row; /* Arrange items in a row */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  gap: 20px; /* Spacing between the cards */
+  
+}
+
+.experience-card {
+  flex: 1 0 300px; /* Distribute space, initial width, and prevent shrinking too much */
+  background-color: #1b1919;
+  padding: 30px;
+  border-radius: 8px;
+ 
+  transition: transform 0.2s ease-in-out;
+  border-left: #39FF14 5px solid;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #b3b6b3;
+}
+
+.experience-card .company {
+  font-style: italic;
+  color: #a89292;
+  margin-bottom: 5px;
+}
+
+.experience-card .duration {
+  color: #a09797;
+  margin-bottom: 15px;
+}
+
+.experience-card .description {
+  color: #ffffff;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .past-experiences .experience-cards {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+
+  .past-experiences .experience-card {
+    flex-basis: auto; /* Allow cards to take full width */
+    width: 100%; /* Ensure full width */
+  }
+}
+
+/* Aspirations Section */
+.aspirations {
+  padding: 60px 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+.aspirations .container {
+  max-width: 800px;
+}
+
+.aspirations h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color:#00796b;
+}
+
+.aspirations .call-to-skills {
+  margin-top: 30px;
+}
+
+/* Personal Touch Section */
+.personal-touch {
+  padding: 60px 0;
+  background-color: #000000;
+}
+
+.personal-touch .container {
+  max-width: 800px;
+}
+
+.personal-touch h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #00796b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about-hero-content {
+      margin-bottom: 30px;
+  }
+
+  .experience-cards {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+/* Testimonials Section */
+
+.testimonials {
+  padding: 60px 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color:#00796b;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial-card {
+  background-color: #1b1919;
+  padding: 25px;
+  border-radius: 8px;
+  flex: 1 0 300px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-img img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.testimonial-card blockquote {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-card .author {
+  font-size: 1em;
+  color: #1fc76b;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .testimonial-cards {
+    flex-direction: column;
+  }
+}

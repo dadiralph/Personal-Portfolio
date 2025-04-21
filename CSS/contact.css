@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #dbeafe, #e0f2fe);
+    color: #1e293b;
+    width: 100%;
+    height: 100%;
+  }
+
+.contact-section {
+    background: linear-gradient(to bottom right, #f5f7fa, #e4ecf5);
+    padding: 50px 20px;
+    border-radius: 12px;
+    width: 100%;
+    height: 75%;
+    display: flex;
+  }
+  
+  .form-container {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #1a1a1a;
+  }
+  
+  .form-container p {
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .contact-form .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-color: #0077cc;
+    outline: none;
+  }
+  
+  .submit-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn i {
+    margin-right: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #005fa3;
+  }
+  
+  .success-msg,
+  .error-msg {
+    margin: 20px auto;
+    padding: 12px 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .success-msg {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error-msg {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
