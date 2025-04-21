@@ -1,8 +1,13 @@
 const words = [
-  " Ralph Clemente",
-  " Creative Thinker 🎨",
-  " Code Craftsman 🔧",
-  " Front-End Developer 💻"
+  "QA Specialist 🔍",
+  "Fast Learner ⚡",
+  "Team Player 🤝",
+  "Campaign Builder 📢",
+  "Junior Front-End Developer 💻",
+  "Organized & Detail-Oriented 📋",
+  "Problem Solver 🧠",
+  "Creative Thinker 🎨",
+  "Tech-Savvy 💡"
 ];
 
 const typewriter = document.querySelector('.typewriter');

@@ -67,7 +67,7 @@ body {
 .typewriter {
   font-size: 3.5rem;
   color: #00796b;
-  padding-left: 10px;
+  padding-left: 17px;
   position: relative;
   white-space: nowrap;
   overflow: hidden;
@@ -202,6 +202,7 @@ body {
 }
 
 .stat-box p {
+  font-family: "Turret Road", sans-serif;
   font-size: 1.1rem;
   color: #ffffff;
 }

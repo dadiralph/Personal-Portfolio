@@ -47,3 +47,30 @@ window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+
+
+
+function showTab(evt, tabId) {
+  const tabContents = document.querySelectorAll('.tab-content');
+  const tabButtons = document.querySelectorAll('.tab-button');
+
+  tabContents.forEach(content => {
+    content.classList.remove('active');
+    content.style.display = 'none';
+  });
+
+  tabButtons.forEach(button => {
+    button.classList.remove('active');
+  });
+
+  const activeTab = document.getElementById(tabId);
+  activeTab.style.display = 'block';
+  activeTab.classList.add('active');
+
+  // Reset animation
+  activeTab.style.animation = 'none';
+  void activeTab.offsetWidth; // Trigger reflow
+  activeTab.style.animation = null;
+
+  evt.currentTarget.classList.add('active');
+}
